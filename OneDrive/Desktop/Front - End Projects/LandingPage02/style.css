@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+
+}
+
+img{
+    height: 50px;
+    mix-blend-mode: difference;
+}
+
+nav{
+    font-size: 20px;
+    padding: 0 15px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#div2{
+    display: flex;
+    gap: 20px;
+}
+
+#div3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    width: 80px;
+    color: black;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+}
+
+h1{
+    font-size: 110px;
+    text-align: center;
+    background-color: transparent;
+}
+
+#animation{
+    display: flex;
+    justify-content: center;
+}
+
+#text{
+    position: relative;
+    background-color: transparent;
+    z-index: 1;
+    width: 100%;
+}
+
+span{
+    font-size: 70px;
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+
+#animation img{
+    overflow: hidden;
+    position: absolute;
+    border-radius: 20px;
+    height: 100%;
+}
+
+
+#left-image{
+    top: 0%;
+    left: 10%;
+    height: 300px;
+    width: 300px;
+    z-index: 0;
+}
+
+#right-image{
+    top: 0%;
+    right: 10%;
+    height: 300px;
+    width: 300px;
+    z-index: 0;
+}
+
+#top-image{
+    top: 40%;
+    left: 40%;
+    right: 10%;
+    height: 300px;
+    width: 300px;
+    z-index: 0;
+}
