@@ -1,0 +1,43 @@
+.success-container, .cancel-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.success-container i, .cancel-container i {
+    margin-bottom: 20px;
+}
+
+.success-container h1, .cancel-container h1 {
+    margin-bottom: 20px;
+}
+
+.success-container p, .cancel-container p {
+    margin-bottom: 20px;
+}
+
+.success-container a, .cancel-container a {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.25em;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.cancel-container a {
+    background-color: #dc3545;
+}
+
+.success-container a:hover, .cancel-container a:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+.cancel-container a:hover {
+    background-color: #c82333;
+}
